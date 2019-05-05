@@ -5,6 +5,8 @@
 #include <queue>
 #include <iostream>
 
+// Gale-Shapely's Stable Marriage Algorithm
+
 using namespace std;
 
 // initialize the queue of men to propose

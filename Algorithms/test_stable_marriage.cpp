@@ -1,3 +1,5 @@
+// compile using "g++ -std=c++17 -Wall test_stable_marriage.cpp -o test_stable_marriage"
+
 #include <iostream>
 #include <stdio.h>
 #include "stable_marriage.h"
@@ -22,7 +24,7 @@ bool testStableMarriage(TestSet& testSet)
         
         // Test that there are N men and N women
         int N = static_cast<int>(men_prefs.size());
-        if (N != women_prefs.size())
+        if (N != static_cast<int>(women_prefs.size()))
         {
             std::cout << "Error: Stable marriage requires the number of men to "
                          "be equal to the number of women" << std::endl;
