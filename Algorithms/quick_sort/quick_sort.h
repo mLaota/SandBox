@@ -1,7 +1,4 @@
-// g++ -std=c++17 -fopenmp test_quick_sort.cpp -o test
-// Multithreaded quicksort using openMP
-
-#include <omp.h>
+// Quick sort algorithm
 
 // Swaps two pointer values
 template<typename T>
