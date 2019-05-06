@@ -19,6 +19,6 @@ auto sumR(T first, Args ... rest)
 
 int main()
 {
-    double sum = sumR(2, 4.5, 5, 8, 9);
+    auto sum = sumR(2, 4.5, 5, 8, 9);
     std::cout << "the sum is " << sum << std::endl;
 }
