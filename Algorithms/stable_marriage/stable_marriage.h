@@ -34,8 +34,8 @@ void init_ranks(int n, vector<vector<int>>& rank, vector<vector<int>>& women_pre
     }
 }
 
-// returns a matching represented as a vector of women such that pos {0...N-1} in the vector
-// holds woman N-1's match
+// returns a matching represented as a vector of women such that pos i={0...N-1} in the vector
+// holds woman (i+1)'s match
 vector<int> stable_marriage(int n, vector<vector<int>> men_prefs, vector<vector<int>> women_prefs) 
 {
     // empty matching (to be returned)
