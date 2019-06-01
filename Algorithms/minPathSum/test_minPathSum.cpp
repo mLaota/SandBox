@@ -1,4 +1,4 @@
-/* g++ -std=c++17 minPathSum.cpp -o minPathSum */
+/* g++ -std=c++17 test_minPathSum.cpp -o test_minPathSum */
 #include <iostream>
 #include "minPathSum.h"
 
