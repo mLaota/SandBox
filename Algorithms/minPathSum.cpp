@@ -23,12 +23,12 @@ int minPathSum(std::vector<std::vector<int>> &grid)
 {
     int rows = (int)grid.size();
     int cols = (int)grid[0].size();
-    // Base cases
-    int pathSum = 0;
-    
+
+    // Base cases...
     // one row, so sum the row
     if (rows == 1)
     {
+        int pathSum = 0;
         for (int &k : grid[0])
         {
             pathSum += k;
@@ -38,6 +38,7 @@ int minPathSum(std::vector<std::vector<int>> &grid)
     // one column, so sum the column
     if (cols == 1)
     {
+        int pathSum = 0;
         for (std::vector<int> &col : grid)
         {
             pathSum += col[0];
