@@ -13,8 +13,8 @@
  */
 int minPathSum(std::vector<std::vector<int>> &grid)
 {
-    int rows = (int)grid.size();
-    int cols = (int)grid[0].size();
+    int rows = static_cast<int>(grid.size());
+    int cols = static_cast<int>(grid[0].size());
 
     // Base cases...
     // one row, so sum the row
