@@ -57,11 +57,8 @@ def haas(path_to_wav):
     Plays the given audio three times, perceived from the center,
     left and right, respectively.
     """
-    # Load the WAVE file.
-    path_to_wav = sys.argv[1]
+    # Load the WAVE file and save some of its properties.
     wav = wave.open(path_to_wav)
-
-    # Save some properties of the wav file.
     wav_name = path_to_wav.rsplit(os.path.sep).pop()
     channels = wav.getnchannels()
     bitrate = wav.getsampwidth() * 8
