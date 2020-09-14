@@ -1,0 +1,9 @@
+
+*.ipch
+*.bin
+
+// VS Code.
+*.vs**
+
+// Idea
+**/.idea/**
