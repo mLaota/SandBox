@@ -61,7 +61,6 @@ class MessageDisplay(QWidget):
         self._layout.addWidget(self._lblCaption)
         self._layout.addWidget(self._lblMessage)
         self._layout.setAlignment(Qt.AlignCenter)
-        self._layout.addWidget(self)
 
     def setMessage(self, newMessage: str):
         self._lblMessage.setText(newMessage)
